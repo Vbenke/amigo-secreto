@@ -42,6 +42,6 @@ function reiniciar() {
 }
 
 document.querySelector('.form').addEventListener('submit', function(event) {
-  event.preventDefault(); // Impede o envio padrão do formulário (recarregar a página)
-  adicionar(); // Executa a função "Adicionar"
+  event.preventDefault();
+  adicionar();
 });
